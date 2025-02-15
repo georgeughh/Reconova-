@@ -7,7 +7,22 @@ set -euo pipefail
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+echo -e "${CYAN}        ____                              _       _       ${NC}"
+echo -e "${CYAN}       |  _ \\ ___  ___ ___  _ __   ___  | |_   _| |_ ___ ${NC}"
+echo -e "${CYAN}       | |_) / _ \\/ __/ _ \\| '_ \\ / _ \\ | | | | | __/ _ \\${NC}"
+echo -e "${CYAN}       |  _ <  __/ (_| (_) | | | |  __/ | | |_| | ||  __/${NC}"
+echo -e "${CYAN}       |_| \\_\\___|\\___\\___/|_| |_|\\___| |_|\\__,_|\\__\\___|${NC}"
+echo -e "${YELLOW}                                                         ${NC}"
+echo -e "${GREEN}             # Coded By georgeughh - @GeorgeeSecc ${NC}"
+echo ""
+
+
+
+
 
 # Logging function
 log() {
