@@ -1,0 +1,12 @@
+TOOLS:
+    subfinder
+    sublist3r
+    gobuster
+    httpx
+    subzy
+    whatweb
+    dirsearch
+    arjun
+    amass
+    anew
+    host
