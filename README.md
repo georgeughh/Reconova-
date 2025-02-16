@@ -26,7 +26,7 @@ Make sure the following tools are installed before running Reconova:
 ### Installation
 ```
 # Clone the repository
-git clone git@github.com:georgeughh/Reconova-.git
+git clone https://github.com/georgeughh/Reconova-.git
 
 # Navigate to the project directory
 cd Reconova-
