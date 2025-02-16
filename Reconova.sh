@@ -12,11 +12,12 @@ CYAN=$'\033[0;36m'
 NC=$'\033[0m'
 
 
-echo -e "${CYAN}        ____                              _       _       ${NC}"
-echo -e "${CYAN}       |  _ \\ ___  ___ ___  _ __   ___  | |_   _| |_ ___ ${NC}"
-echo -e "${CYAN}       | |_) / _ \\/ __/ _ \\| '_ \\ / _ \\ | | | | | __/ _ \\${NC}"
-echo -e "${CYAN}       |  _ <  __/ (_| (_) | | | |  __/ | | |_| | ||  __/${NC}"
-echo -e "${CYAN}       |_| \\_\\___|\\___\\___/|_| |_|\\___| |_|\\__,_|\\__\\___|${NC}"
+
+echo -e "${CYAN}  ____                                                ${NC}"
+echo -e "${CYAN} |  _ \\ ___  ___ ___  _ __   _____   ____ _         ${NC}"
+echo -e "${CYAN} | |_) / _ \\/ __/ _ \\| '_ \\ / _ \\ \\ / / _\` |        ${NC}"
+echo -e "${CYAN} |  _ <  __/ (_| (_) | | | | (_) \\ V / (_| |        ${NC}"
+echo -e "${CYAN} |_| \\_\\___|\\___\\___/|_| |_|\\___/ \\_/ \\__,_|        ${NC}"
 echo -e "${YELLOW}                                                         ${NC}"
 echo -e "${GREEN}             # Coded By georgeughh - @GeorgeeSecc ${NC}"
 echo ""
@@ -38,7 +39,7 @@ log() {
 }
 
 # Check if the domain is provided
-if [ "$1" != "-d" ] || [ -z "$2" ]; then
+if [[ "${1:-}" != "-d" || -z "${2:-}" ]]; then
   log "error" "Usage: $0 -d <domain>"
   exit 1
 fi
@@ -75,7 +76,7 @@ done
 
 # Function to enumerate subdomains
 enumerate_subdomains() {
-  log "info" "Discovering subdomains using multiple tools..."
+  log "info" "Discovering subdomains..."
   subfinder -d "$DOMAIN" -silent > "$OUTPUT_FILE" 2>/dev/null
 
   sublist3r -d "$DOMAIN" -o "$SUBDOMAINS_DIR/sublist3r_results.txt" > /dev/null 2>&1
