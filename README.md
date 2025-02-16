@@ -28,7 +28,8 @@ Make sure the following tools are installed before running Reconova:
 chmod +x reconova.sh
 ./reconova.sh -d example.com
 ```
-![Screenshot 2025-02-16 104625](https://github.com/user-attachments/assets/4945f14b-b720-4cde-aefb-68ea3156b401)
+![image](https://github.com/user-attachments/assets/cb6631c8-cf4d-4f6b-88da-49dfe9d616aa)
+
 
 ## CONTACT
 - Twitter [@GerogeeSecc](https://x.com/GeorgeeSecc)
