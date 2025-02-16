@@ -21,7 +21,22 @@ Make sure the following tools are installed before running Reconova:
 - `dirsearch`  
 - `arjun`  
 - `amass`  
-- `anew`  
+- `anew`
+
+### Installation
+```
+# Clone the repository
+git clone git@github.com:georgeughh/Reconova-.git
+
+# Navigate to the project directory
+cd Reconova-
+
+# Make the script executable
+chmod +x Reconova.sh  
+
+# Run the tool
+./Reconova.sh -d example.com
+```
 
 ### 💻 Usage:
 ```bash
@@ -29,6 +44,7 @@ chmod +x reconova.sh
 ./reconova.sh -d example.com
 ```
 ![image](https://github.com/user-attachments/assets/cb6631c8-cf4d-4f6b-88da-49dfe9d616aa)
+
 
 
 ## CONTACT
