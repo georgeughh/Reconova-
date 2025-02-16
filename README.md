@@ -31,4 +31,4 @@ chmod +x reconova.sh
 ![Screenshot 2025-02-16 104625](https://github.com/user-attachments/assets/4945f14b-b720-4cde-aefb-68ea3156b401)
 
 ## CONTACT
-- Twitter [@GerogeeSecc](https://x.com/GeorgeeSecc).
+- Twitter [@GerogeeSecc](https://x.com/GeorgeeSecc)
